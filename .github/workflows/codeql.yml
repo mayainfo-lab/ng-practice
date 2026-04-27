@@ -43,7 +43,7 @@ jobs:
       matrix:
         include:
         - language: javascript-typescript
-          build-mode: autobuild
+          build-mode: manual
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
